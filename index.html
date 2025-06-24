@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Argyro Krotsi – Kiteboarding Athlete | Road to the Olympics</title>
+  <meta name="description" content="Discover Argyro Krotsi, Greek kiteboarding athlete. Her passion for wind and sea leads her to the Olympic Games. Follow her journey on Facebook, Instagram, TikTok.">
+  <meta name="keywords" content="Argyro Krotsi, kiteboarding, Greek athlete, Olympics, kitesurf, wind, sea, passion, sportswoman, social media">
+  <meta name="author" content="Argyro Krotsi">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="canonical" href="https://argyrokrotsi.com/" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Argyro Krotsi – Kiteboarding Athlete | Road to the Olympics">
+  <meta property="og:description" content="Discover Argyro Krotsi, Greek kiteboarding athlete. Her passion for wind and sea leads her to the Olympic Games. Follow her journey on Facebook, Instagram, TikTok.">
+  <meta property="og:image" content="https://argyrokrotsi.com/54525730096_9296873562_o.jpg">
+  <meta property="og:url" content="https://argyrokrotsi.com/">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Argyro Krotsi – Kiteboarding Athlete | Road to the Olympics">
+  <meta name="twitter:description" content="Discover Argyro Krotsi, Greek kiteboarding athlete. Her passion for wind and sea leads her to the Olympic Games.">
+  <meta name="twitter:image" content="https://argyrokrotsi.com/54525730096_9296873562_o.jpg">
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+  <!-- Preconnect for font speed -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:900,700,400&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      width: 100vw;
+      min-height: 100vh;
+      background: url('54525730096_9296873562_o.jpg') no-repeat center center fixed;
+      background-size: cover;
+      overflow: hidden;
+      position: relative;
+      transition: background-position 0.4s;
+    }
+    .overlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(12, 18, 32, 0.54);
+      z-index: 1;
+      pointer-events: none;
+    }
+    .center-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -53%);
+      width: 100vw;
+      text-align: center;
+      z-index: 2;
+      user-select: none;
+    }
+    .title-big {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 3rem;
+      font-weight: 900;
+      letter-spacing: 2px;
+      margin-bottom: 1.1rem;
+      text-transform: uppercase;
+      text-shadow: 0 8px 32px rgba(0,0,0,0.35), 0 1px 0 #000;
+    }
+    .title-big .blue1 {
+      color: #0095ff;
+      font-weight: 900;
+    }
+    .title-big .blue2 {
+      color: #00366a;
+      font-weight: 900;
+    }
+    .slideshow {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 1.65rem;
+      font-weight: 600;
+      color: #fff;
+      min-height: 44px;
+      margin-bottom: 2.1rem;
+      display: inline-block;
+      position: relative;
+      text-shadow: 0 3px 12px rgba(0,0,0,0.23);
+      letter-spacing: 1px;
+      height: 48px;
+    }
+    .slideshow .typed-text {
+      border-right: 2px solid #fff;
+      padding-right: 4px;
+      white-space: pre;
+    }
+    .subtitle {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 1.05rem;
+      color: #fff;
+      margin-top: 1.5rem;
+      text-shadow: 0 1px 8px rgba(0,0,0,0.19);
+      letter-spacing: 1px;
+      font-weight: 400;
+      line-height: 1.6;
+    }
+    .social-icons {
+      margin-top: 2.7rem;
+      display: flex;
+      gap: 28px;
+      justify-content: center;
+      align-items: center;
+    }
+    .social-icons a {
+      color: #fff;
+      font-size: 2.1rem;
+      opacity: 0.88;
+      transition: color 0.2s, transform 0.2s, opacity 0.2s;
+      text-decoration: none;
+    }
+    .social-icons a:hover {
+      color: #0095ff;
+      opacity: 1;
+      transform: translateY(-2px) scale(1.08);
+    }
+    /* Responsive for mobile: move BG to left */
+    @media (max-width: 700px) {
+      body {
+        background-position: 70% center;
+      }
+      .title-big { font-size: 2.1rem; }
+      .slideshow { font-size: 1.15rem; min-height: 30px; height: 32px;}
+      .subtitle { font-size: 0.92rem; }
+      .social-icons a { font-size: 1.48rem;}
+    }
+    @media (max-width: 480px) {
+      .title-big { font-size: 1.22rem; }
+      .slideshow { font-size: 0.97rem; min-height: 21px; height: 22px;}
+      .subtitle { font-size: 0.78rem;}
+      .social-icons a { font-size: 1.19rem;}
+      .center-content { padding: 0 6px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay" aria-hidden="true"></div>
+  <main class="center-content" aria-label="Main content">
+    <h1 class="title-big">
+      <span class="blue1">I’m</span> <span class="blue2">Argyro Krotsi</span>
+    </h1>
+    <div class="slideshow">
+      <span class="typed-text" id="typedText" aria-live="polite"></span>
+    </div>
+    <div class="subtitle">
+      The sea, the wind, the passion.<br>
+      Argyro is writing her own story in kiteboarding.<br>
+      Destination: the Olympic Games.
+    </div>
+    <nav class="social-icons" aria-label="Social Media">
+      <a href="https://www.facebook.com/profile.php?id=61554210808874" title="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/argyro.krotsi/" title="Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@argyro.krotsi" title="TikTok" target="_blank" rel="noopener"><i class="fab fa-tiktok"></i></a>
+    </nav>
+  </main>
+  <script>
+    // Typing effect like Virtuo
+    const motto = [
+      "Where the wind grows stronger, my dream begins",
+      "I live with the wind, I dream with the waves",
+      "Freedom begins where the land ends"
+    ];
+    const typedText = document.getElementById('typedText');
+    let mottoIdx = 0;
+    let charIdx = 0;
+    function typeMotto() {
+      if (charIdx <= motto[mottoIdx].length) {
+        typedText.textContent = motto[mottoIdx].slice(0, charIdx);
+        charIdx++;
+        setTimeout(typeMotto, 45);
+      } else {
+        setTimeout(eraseMotto, 1700);
+      }
+    }
+    function eraseMotto() {
+      if (charIdx > 0) {
+        typedText.textContent = motto[mottoIdx].slice(0, charIdx - 1);
+        charIdx--;
+        setTimeout(eraseMotto, 18);
+      } else {
+        mottoIdx = (mottoIdx + 1) % motto.length;
+        setTimeout(typeMotto, 340);
+      }
+    }
+    typeMotto();
+  </script>
+</body>
+</html>
